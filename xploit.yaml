@@ -1,0 +1,26 @@
+name: nextjs-app
+description: Next.js application with essential dependencies
+
+dependencies:
+  - node: ">=18.0.0"
+  - npm: ">=9.0.0"
+  - next: latest
+  - react: latest
+  - react-dom: latest
+  - typescript: latest  # if you're using TypeScript
+  - tailwindcss: latest # optional, for styling
+  - postcss: latest     # required by Tailwind
+  - autoprefixer: latest
+  - eslint: latest
+  - prettier: latest    # optional, for formatting
+  - eslint-config-next: latest
+
+devDependencies:
+  - @types/node: latest
+  - @types/react: latest
+  - @types/react-dom: latest
+
+scripts:
+  dev: npm run dev
+  build: npm run build
+  start: npm run start
